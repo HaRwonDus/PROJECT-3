@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <style>
+        /* CSS */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        #navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 20%;
+            height: 100%;
+            background-color: #333;
+            color: white;
+            overflow: auto;
+        }
+
+        #navbar header {
+            text-align: center;
+            padding: 10px;
+            background-color: #555;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        #main-doc {
+            flex: 1;
+            padding-left: 25%;
+        }
+
+        .main-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        @media (max-width: 600px) {
+            #navbar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            #main-doc {
+                padding-left: 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <header>Documentation</header>
+        <a href="#Section_1" class="nav-link">Section 1</a>
+        <a href="#Section_2" class="nav-link">Section 2</a>
+        <a href="#Section_3" class="nav-link">Section 3</a>
+        <a href="#Section_4" class="nav-link">Section 4</a>
+        <a href="#Section_5" class="nav-link">Section 5</a>
+    </nav>
+
+    <!-- Main Documentation -->
+    <main id="main-doc">
+        <section class="main-section" id="Section_1">
+            <header>Section 1</header>
+            <p>Text for section 1. <code>code example 1</code></p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <p>Another paragraph.</p>
+        </section>
+
+        <section class="main-section" id="Section_2">
+            <header>Section 2</header>
+            <p>Text for section 2. <code>code example 2</code></p>
+            <ul>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+            <p>Another paragraph.</p>
+        </section>
+
+        <section class="main-section" id="Section_3">
+            <header>Section 3</header>
+            <p>Text for section 3. <code>code example 3</code></p>
+            <ul>
+                <li>Item 5</li>
+                <li>Item 6</li>
+            </ul>
+            <p>Another paragraph.</p>
+        </section>
+
+        <section class="main-section" id="Section_4">
+            <header>Section 4</header>
+            <p>Text for section 4. <code>code example 4</code></p>
+            <ul>
+                <li>Item 7</li>
+                <li>Item 8</li>
+            </ul>
+            <p>Another paragraph.</p>
+        </section>
+
+        <section class="main-section" id="Section_5">
+            <header>Section 5</header>
+            <p>Text for section 5. <code>code example 5</code></p>
+            <ul>
+                <li>Item 9</li>
+                <li>Item 10</li>
+            </ul>
+            <p>Another paragraph.</p>
+        </section>
+    </main>
+
+</body>
+</html>
